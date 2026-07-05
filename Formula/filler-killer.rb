@@ -19,7 +19,7 @@ class FillerKiller < Formula
     # dedicated venv against brew's python (wheels: vosk, sounddevice, pyobjc)
     system Formula["python@3.13"].opt_bin/"python3.13", "-m", "venv", libexec/"venv"
     system libexec/"venv/bin/pip", "install", "--quiet",
-           "vosk", "sounddevice", "pyobjc-framework-Cocoa",
+           "vosk", "sounddevice", "audioop-lts", "pyobjc-framework-Cocoa",
            "pyobjc-framework-AVFoundation"
 
     resource("vosk-model").stage do
