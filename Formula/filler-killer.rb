@@ -1,11 +1,8 @@
 class FillerKiller < Formula
   desc "Local real-time filler-word counter overlay for macOS (offline STT)"
   homepage "https://github.com/mattbakerpm/filler-killer"
-  # Commit archive (not the tag archive): the v1.5.0 tag was re-pointed once
-  # and GitHub keeps serving the stale tag tarball for a while.
-  url "https://github.com/mattbakerpm/filler-killer/archive/c60b3ab2ba0183cedde6aa4c08f3ed1d85c51445.tar.gz"
-  version "1.5.0"
-  sha256 "813a283d25cfa486f923ba2a567e8beac364d067b13479bb06695b0c36ab5d46"
+  url "https://github.com/mattbakerpm/filler-killer/archive/refs/tags/v1.5.1.tar.gz"
+  sha256 "0a3509d845cc8eceae78e08d29bccc213748373159525dcb6ca407e0e15465f7"
   license "MIT"
 
   depends_on "python@3.13"
