@@ -7,7 +7,7 @@ cask "filler-killer" do
   desc "Local real-time filler-word counter overlay for macOS (offline STT)"
   homepage "https://github.com/mattbakerpm/filler-killer"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "FillerKiller.app"
 
