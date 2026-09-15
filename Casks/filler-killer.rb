@@ -1,6 +1,6 @@
 cask "filler-killer" do
   version "1.6.0"
-  sha256 "21b774d760522f931960ee1898bf87b13cb54c280cf742a25d866056db6d3044"
+  sha256 "e0d68b4e48b10cdfffa88c78e10312130b9fd7978b8acf069332d0820755f4f4"
 
   url "https://github.com/mattbakerpm/filler-killer/releases/download/v#{version}/FillerKiller-#{version}.zip"
   name "Filler Killer"
